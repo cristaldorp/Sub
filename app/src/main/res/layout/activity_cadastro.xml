@@ -14,11 +14,12 @@
         android:layout_marginBottom="433dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Nome:"
+        android:text="@string/nome"
         app:layout_constraintBottom_toTopOf="@+id/btnSalvar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btnSalvar"
@@ -29,7 +30,8 @@
         android:layout_marginEnd="150dp"
         android:layout_marginRight="150dp"
         android:layout_marginBottom="97dp"
-        android:text="Cadastrar"
+        android:onClick="NovoCadastro"
+        android:text="@string/cadastrar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -39,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="73dp"
-        android:text="Cadastro de Pessoas"
+        android:text="@string/cadastro_de_pessoas"
         app:autoSizeTextType="uniform"
         app:layout_constraintBottom_toTopOf="@+id/idNome"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,7 +55,8 @@
         android:layout_marginLeft="54dp"
         android:layout_marginEnd="55dp"
         android:layout_marginRight="55dp"
-        android:layout_marginBottom="352dp"
+        android:layout_marginBottom="104dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="date"
         app:layout_constraintBottom_toTopOf="@+id/btnSalvar"
@@ -68,8 +71,8 @@
         android:layout_marginLeft="25dp"
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
-        android:layout_marginBottom="504dp"
-        android:text="Nascimento:"
+        android:layout_marginBottom="256dp"
+        android:text="@string/nascimento"
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -80,25 +83,28 @@
         android:id="@+id/idCpf"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="274dp"
+        android:layout_marginBottom="372dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="CPF:"
+        android:text="@string/cpf"
         app:layout_constraintBottom_toTopOf="@+id/btnSalvar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/idIdade"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="196dp"
+        android:layout_marginBottom="280dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Idade:"
+        android:text="@string/idade"
         app:layout_constraintBottom_toTopOf="@+id/btnSalvar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

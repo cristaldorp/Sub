@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Sub</string>
+    <string name="novo_cadastro">Novo Cadastro</string>
+    <string name="nascimento">Nascimento:</string>
+    <string name="cpf">CPF:</string>
+    <string name="idade">Idade:</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="nome">Nome:</string>
+    <string name="cadastro_de_pessoas">Cadastro de Pessoas</string>
 </resources>
